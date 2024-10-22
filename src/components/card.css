@@ -1,0 +1,13 @@
+.card {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc; /* Subtle border for each task card */
+    border-radius: 5px;
+    background-color: #fff; /* White background for each card to make them stand out */
+    transition: box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
+}
